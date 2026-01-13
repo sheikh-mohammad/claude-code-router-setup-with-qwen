@@ -124,7 +124,14 @@ Test with:
 ## Token Refresh (When you get 401 errors)
 
 Your OAuth token expires. Refresh it by:
-1. Re-authenticating your QWEN CODE CLI: If already logged in and the access_token matches in both `config.json` and `oauth_creds.json`, delete the oauth_creds.json file and run `qwen` to initiate re-authentication.
+1. Delete the oauth_creds.json file by running this command:
+
+  Replace the PC_USER with your pc user name:
+  
+  ```bash
+  rm C:/Users/PC_USER/.qwen/oauth_creds.json
+  ```
+
 2. Update the `api_key` in your config.json with the new access_token:
    ```bash
    echo 'export QWEN_API_KEY="YOUR_QWEN_ACCESS_TOKEN_HERE"' >> ~/.bashrc
