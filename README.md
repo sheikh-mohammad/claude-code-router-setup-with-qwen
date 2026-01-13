@@ -7,3 +7,4 @@
 ---
 
 1. For Windows Installation: [Install Claude Code on Windows](./windows_installation.md)
+2. For Bash Installation: [Install Claude Code on Bash](./bash_installation.md)
