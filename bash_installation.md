@@ -18,6 +18,10 @@ Replace `PC_USER` with your Windows username.
 
 Open `C:\Users\PC_USER\.qwen\oauth_creds.json`:
 
+```sh
+cat C:/Users/PC_USER/.qwen/oauth_creds.json
+```
+
 It should look something like this
 ```json
 {
