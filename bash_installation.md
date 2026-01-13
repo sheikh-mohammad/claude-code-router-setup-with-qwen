@@ -126,13 +126,14 @@ Test with:
 Your OAuth token expires. Refresh it by:
 1. Delete the oauth_creds.json file by running this command:
 
-  Replace the PC_USER with your pc user name:
+    Replace the PC_USER with your pc user name:
   
-  ```bash
-  rm C:/Users/PC_USER/.qwen/oauth_creds.json
-  ```
+    ```bash
+    rm C:/Users/PC_USER/.qwen/oauth_creds.json
+    ```
 
 2. Update the `api_key` in your config.json with the new access_token:
+   
    ```bash
    echo 'export QWEN_API_KEY="YOUR_QWEN_ACCESS_TOKEN_HERE"' >> ~/.bashrc
    source ~/.bashrc
@@ -144,4 +145,5 @@ Your OAuth token expires. Refresh it by:
    echo 'export QWEN_API_KEY="YOUR_QWEN_ACCESS_TOKEN_HERE"' >> ~/.zshrc
    source ~/.zshrc
    ```
+   
 4. Restart: `ccr restart`
