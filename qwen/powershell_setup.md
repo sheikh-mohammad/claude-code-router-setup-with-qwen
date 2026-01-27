@@ -1,4 +1,4 @@
-# How to Use Claude Code with Qwen models for Free on PowerShell (Windows)
+# How to Use Claude Code with Qwen models for Free on PowerShell
 
 ## Prerequisites
 *   **Node.js (v18+):** Ensure Node.js is installed.
