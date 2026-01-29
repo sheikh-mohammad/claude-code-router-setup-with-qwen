@@ -64,12 +64,10 @@ EOF
 
 ### Step 4: Extract Your Access Token
 
-Replace `PC_USER` with your pc username.
-
 Open `C:\Users\PC_USER\.qwen\oauth_creds.json`:
 
 ```bash
-cat C:/Users/PC_USER/.qwen/oauth_creds.json
+cat ~/.qwen/oauth_creds.json
 ```
 
 It should look something like this
@@ -127,11 +125,9 @@ Test with:
 
 Your OAuth token expires. Refresh it by:
 1. Delete the oauth_creds.json file by running this command:
-
-    Replace the PC_USER with your pc user name:
   
     ```bash
-    rm C:/Users/PC_USER/.qwen/oauth_creds.json
+    rm ~/.qwen/oauth_creds.json
     ```
 
 2. Update the `api_key` in your config.json with the new access_token:
